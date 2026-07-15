@@ -1,4 +1,3 @@
-<!DOCTYPE html>
 <html lang="en">
 
 <head>
@@ -6,7 +5,8 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Treact</title>
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="./style.css">
+
     <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css"
         integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous" />
     <script src="script.js"></script>
@@ -17,55 +17,62 @@
         <nav>
             <div class="row nav__row">
                 <div class="nav__logo">
-                <img src="./assets/logo-light.d9a5d1b5be5ea077b26864fdfc2e96a4.svg"> "Treact"
+                   <img src="./assets/logo.2c489fc453a1783cbadacf914efa3df6.svg" alt="Treact logo" class="nav__logo--img">
                 </div>
+                <div class="nav__logo--img">Treact</div>
                 <div class="logo"></div>
                 <ul class="nav__link--list">
-        <li class="nav__link">
-          <a href="#About" class="
-            nav__link--anchor
-            link__hover-effect
-            link__hover-effect--black
-          ">About</a>
-        </li>
-        <li class="nav__link">
-          <a href="#Blog" class="
-            nav__link--anchor
-            link__hover-effect
-            link__hover-effect--black
-          ">Blog</a>
-        </li>
-        <ul class="nav__link--list">
-        <li class="nav__link">
-          <a href="#Pricing" class="
-            nav__link--anchor
-            link__hover-effect
-            link__hover-effect--black
-          ">Pricing</a>
-        </li>
-        <li class="nav__link">
-          <a href="#Contact Us" class="
-            nav__link--anchor
-            link__hover-effect
-            link__hover-effect--black">
-          <span"text--purple"></span> Contact Us</a>
-        </li>
-        <ul class="nav__link--list">
-        <li class="nav__link">
-          <a href="#Login" class="
-            nav__link--anchor
-            link__hover-effect
-            link__hover-effect--black
-          ">Login</a>
-        </li>
-        <li class="nav__link">
-          <a href="#Sign Up" class="
-            nav__link--anchor
-            link__hover-effect
-            link__hover-effect--black
-          "><span="text--purple">Sign up</span></a>
-        </li>
-        </ul>
+                <li class="nav__link">
+                <a href="#about" class="
+                 nav__link--anchor
+                 link__hover-effect
+                 link__hover-effect--black
+               ">About</a>
+
+                </li>
+                <li class="nav__link">
+                <a href="blog" class="
+                 nav__link--anchor
+                 link__hover-effect
+                 link__hover-effect--black
+                 ">Blog</a>
+                  </li>
+
+                 <il class="nav__link--list">
+                 <li class="nav__link">
+                 <a href="#pricing" class="
+                  nav__link--anchor
+                  link__hover-effect
+                  link__hover-effect--black
+                  ">Pricing</a>
+                  </li>
+
+                  <li class="nav__link">
+                  <a href="#contact" class="
+                  nav__link--anchor
+                  link__hover-effect
+                  link__hover-effect--black">
+                  Contact</a>
+                 </li>
+
+                 <class="nav__link--list">
+                 <li class="nav__link">
+                 <a href="#login" class="
+                  nav__link--anchor
+                  link__hover-effect
+                  link__hover-effect--black login
+                 ">Login</a>
+                  </li>
+
+                  <li class="nav__link" nav__link--primary>
+                  <a href="#sign__up" class="
+                   nav__link--anchor
+                   link__hover-effect
+                   link__hover-effect--black">
+                   Sign up</a>
+                   </li>
+                   </ul>
+                   
 
                 <button class="btn__menu" onclick="openMenu()">
                     <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none"
@@ -100,19 +107,41 @@
         <header>
             <div class="container">
                 <div class="row">
+                <div class="header__description">
+            
                     <h1>Beautiful React Templates for you.</h1>
                     <p>Our templates are easy to setup, understand and customize. Fully modular components with a variety of pages and components.</p>
-                    <button><span"text--purple"></span>Get Started</button>
+                </p>
+                    <div class="header__email">
+                    <input type="text" placeholder="Your Email Here" class="header__email--input">
+                    <button class="header__email--btn">Get Started</button>
+                    </div>
+                    <div class="trusted-customers--para header__input">
+                    <img src="assets/customers-logo-strip.680ac7c2e8ae28161d2c.png" alt="Trusted Customers img">
+                    </div>
+                    </div>
+                    </div>
             </div>
+            <figure class="header__img--wrapper">
+                 <img src="./assets/design-illustration-2.6da6a00b20c07c4a9b65d1870679e1b8.svg" alt="illustration of a designer working at a desk with laptop, charts, and digital interface elements in a bright modern creative workspace, conveying an energetic collaborative tone">
+            </figure>
         </header>
     </section>
     <main>
         <section id="features">
             <div class="container">
                 <div class="row__narrow">
-                    <!--  -->Enter Features Section<!--  -->
+                    <h1>We have amazing services</h1>
+                   
                 </div>
             </div>
+            <figure class="features__img--wrapper">
+                <h2>Secure</h2>
+                 <img src="./assets/shield-icon.daefe14b320b14fbd9cbd18908ac93ec.svg" alt="Secure icon" class="shield-icon">
+                 <div class="container">
+                 <p>Lorem ipsum donor amet siti ceali ut enim ad minim veniam, quis nostrud.</p>
+
+            </figure>
         </section>
         <section id="quality">
             <div class="container">
