@@ -421,8 +421,8 @@ STEPS ↓
   
 }
 .steps__description-list {
-  width: 65%;
-  height: 65px;%;
+  width: 50%;
+  height: 50%;
   justify-content: center;
    align-items: center;
    flex-direction: row;
@@ -430,8 +430,8 @@ STEPS ↓
    margin-left: 45%;
 }
 .steps__description--list {
-  height: 65px;
-  width: 65px;
+  height: 50%;
+  width: 50%;
   flex-direction: row;
   padding: 8px 32px;
   justify-content: center;
@@ -441,7 +441,7 @@ STEPS ↓
 }
 
 .steps__img--wrapper {
-  width: 45%;
+  width: 50%;
   display: flex;
   justify-content: center;
   align-items: center;
