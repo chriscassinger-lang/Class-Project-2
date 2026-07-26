@@ -384,71 +384,40 @@ STEPS ↓
 */
 
 #steps .row {
-  
   display: flex;
-  justify-content: center;
-  flex-direction: row;
-}
-#steps .row {
-  
-  
-  justify-content: center;
-  flex-direction: row;
-  padding: 8px 32px;
-  margin:auto;
-}
-
-.steps__wrapper {
-  
-
-  justify-content: center;
-  flex-wrap: wrap;
-  margin-top: 82px;
-  flex-direction: row;
-}
-
-.steps__img--wrapper {
-  justify-content: center;
-  flex-direction: row;
-}
-.steps__img--wrapper,
-.steps__img--wrapper--para {
-  width: 65%;
-  height: 65%;
-  flex-direction: row;
-  justify-content: center;
-  padding: 8px 32px;
-  
-}
-.steps__description-list {
-  width: 50%;
-  height: 50%;
-  justify-content: center;
-   align-items: center;
-   flex-direction: row;
-   display: flex;
-   margin-left: 45%;
-}
-.steps__description--list {
-  height: 50%;
-  width: 50%;
-  flex-direction: row;
-  padding: 8px 32px;
-  justify-content: center;
-  flex-direction: row;
-  display: flex;
-  margin-right: 55%;
-}
-
-.steps__img--wrapper {
-  width: 50%;
-  display: flex;
-  justify-content: center;
+  flex-direction: row-reverse;
   align-items: center;
-  flex-direction: row;
-  display: flex;
-  
+  justify-content: space-between;
+  gap: 64px;
 }
+
+.steps__description,
+.steps__img--wrapper {
+  width: 50%;
+}
+
+.steps__description--list {
+  width: 100%;
+  height: auto;
+  margin: 32px 0 0;
+  padding: 0;
+  display: block;
+}
+
+.steps__description--list ul {
+  display: block;
+}
+
+.steps__img--wrapper {
+  padding: 0;
+}
+
+.steps__img--wrapper img {
+  width: 100%;
+}
+
+  
+
 
 /* 
 
@@ -460,6 +429,50 @@ VALUES ↓
   display: flex;
   justify-content: space-between;
   align-items: center;
+}
+
+ .value__wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  margin-top: 56px;
+  flex-direction: row;
+  height: 50%;
+  width: 50%;
+}
+
+.value__img--wrapper {
+  display: flex;
+  flex-direction: column;
+  height: 50%;
+  width: 50%;
+}
+.value__img--wrapper,
+.value__img--wrapper--para {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  width:50%;
+  height: 50%;
+}
+.value__description {
+  width: 50%;
+  height: 50%;
+  display: flex;
+  justify-content: center;
+}
+
+.value__img--wrapper {
+  width: 24px;
+  height: 24px;
+  display: flex;
+  justify-content: center;
+}
+
+value__img {
+  width: 48px;
+  height: 48px;
 }
 
 /*
