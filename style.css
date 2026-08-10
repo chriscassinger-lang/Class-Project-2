@@ -13,12 +13,6 @@ body {
   overflow-x: hidden;
 }
 
-h2 {
-  height: 24px;
-  width: 24px;
-  display: flex;
-  flex-direction: column;
-}
 
 p {
   display: flex;
@@ -38,7 +32,7 @@ flex-direction: space-between;
 li {
 list-style-type: none;
 display: flex;
-flex-direction: space-between;
+flex-direction: column;
 }
 
 a {
@@ -427,54 +421,44 @@ VALUES ↓
 
 #values .row {
   display: flex;
+  align-items: center;
   justify-content: space-between;
-  align-items: center;
+  gap: 64px;
 }
 
- .value__wrapper {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  flex-wrap: wrap;
-  margin-top: 56px;
-  flex-direction: row;
-  height: 50%;
+.values__img--wrapper,
+.values__description {
   width: 50%;
 }
 
-.value__img--wrapper {
-  display: flex;
-  flex-direction: column;
-  height: 50%;
-  width: 50%;
-}
-.value__img--wrapper,
-.value__img--wrapper--para {
-  display: flex;
-  flex-direction: row;
-  align-items: center;
-  width:50%;
-  height: 50%;
-}
-.value__description {
-  width: 50%;
-  height: 50%;
-  display: flex;
-  justify-content: center;
+.values__img--wrapper img {
+  width: 100%;
 }
 
-.value__img--wrapper {
-  width: 24px;
-  height: 24px;
+.values__list {
   display: flex;
-  justify-content: center;
+  gap: 32px;
+  margin: 32px 0;
 }
 
-value__img {
+.value {
+  display: flex;
+  align-items: flex-start;
+  gap: 12px;
+  width: 50%;
+}
+
+.value__icon {
   width: 48px;
   height: 48px;
+  object-fit: contain;
+  flex-shrink: 0;
 }
 
+.value h2 {
+  width: auto;
+  height: auto;
+}
 /*
 
 PRICING ↓
@@ -486,6 +470,20 @@ PRICING ↓
   flex-direction: column;
   align-items: center;
 }
+pricing ul{
+  flex-direction: column;
+}
+pricing il{
+  flex-direction: column;
+}
+
+.pricing {
+  display: flex;
+  align-items: flex-start;
+  gap: 12px;
+  width: 50%;
+}
+
 
 /* 
 
