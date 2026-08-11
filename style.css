@@ -536,19 +536,17 @@ PRICING ↓
 }
 
 
-/* 
 
-TESTIMONIALS ↓
+/*gitTESTIMONIALS*/
 
-*/
-
-*/
-#testimonials__row {
+#testimonials .row {
   display: flex;
   flex-direction: row;
   align-items: center;
-  justify-content: space-between;
+  gap: 64px;
 }
+
+
 .testimonials__description,
 .testimonials__img--wrapper {
   width: 50%;
