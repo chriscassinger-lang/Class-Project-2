@@ -537,7 +537,7 @@ PRICING ↓
 
 
 
-/*gitTESTIMONIALS*/
+/*TESTIMONIALS*/
 
 #testimonials .row {
   display: flex;
@@ -576,18 +576,69 @@ PRICING ↓
   display: block;
 }
 
+.testimonials__description img {
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+
+.testimonials__stars {
+  color: #fabf2a;
+  margin: 24px 0;
+}
+
+.testimonials__stars i {
+  margin-right: 4px;
 
 
 
-/* 
 
-START / CALL TO ACTION ↓
 
-*/
+/*START / CALL TO ACTION ↓*/
 
 #start .row {
-  position: relative;
-  overflow: hidden;
+   display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 64px;
+  color:#6415ff
+}
+
+
+
+
+.start__description,
+.start__img--wrapper {
+  width: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color:#fff
+}
+
+.start__description--list {
+  width: 100%;
+  height: auto;
+  margin: 32px 0 0;
+  padding: 0;
+  display: block;
+}
+
+.start__description--
+color: white;
+}
+
+.start__img--wrapper {
+  padding: 0;
+}
+
+.start__button--Get-Started {
+   border-top: 8px solid #f472b6;
+}
+.start__button--Contact-Us {
+   border-top: 8px solid #6415ff;
 }
 
 /* 
