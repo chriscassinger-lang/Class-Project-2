@@ -7,7 +7,9 @@
   font-family: "Inter", system-ui;
   color: #243e63;
 }
-
+a {
+  flex-direction: column;
+}
 
 
 h1{
@@ -22,6 +24,7 @@ h3 {
   font-weight: 700;
   line-height: 1.2;
   display: flex;
+  color:black;
 }
 
 body {
@@ -608,7 +611,9 @@ PRICING ↓
   color: #fff;
 }
 
-
+start.h1 {
+  color: #fff;
+}
 
 
 .start__description,
@@ -622,16 +627,13 @@ PRICING ↓
 }
 
 .start__description--list {
-  width: 50%;
-  height: auto;
-  margin: 32px 0 0;
-  padding: 0;
-  display: block;
-  color: #fff;
+  display: flex;
+  align-items: center;
+  gap: 16px;
 }
 
 .start__description {
-  width: 50%;
+  width: 100%;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -640,17 +642,23 @@ PRICING ↓
 }
 .start__img--wrapper {
   width: 100%;
+  height: 100%;
   display: flex;
   align-items: center;
   gap: 24px;
   padding: 64px;
+  color: #fff;
 }
 .start__img--wrapper h1 {
   color: #fff;
   max-width: 500px;
   margin-right: auto;
 }
-
+.start__h1 {
+  color: #fff;
+  max-width: 500px;
+  margin-right: auto;
+}
 
 
 .start__button--Get-Started {
@@ -708,7 +716,26 @@ footer {
   position: relative;
   overflow: hidden;
 }
-
+footer .row {
+  flex-direction: row-reverse;
+  justify-content: space-between;
+  gap: 32px;
+}
+footer__links  {;
+  flex-direction: column;
+  color: white;
+  margin: 8px 0;
+}
+footer__links h3 {
+  color: white;
+  flex-direction: column;
+  margin-bottom: 8px;
+}
+footeer__links--description {
+  color: white;
+  flex-direction: column;
+  margin-bottom: 4px;
+}
 /* 
 
 MOBILE RESPONSIVENESS ↓
