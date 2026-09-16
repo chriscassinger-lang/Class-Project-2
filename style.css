@@ -90,6 +90,10 @@ main {
   margin-bottom: 96px;
 }
 
+poopers {
+  color: white;
+}
+
 /* 
 
 NAVBAR ↓
@@ -829,7 +833,22 @@ FOOTER ↓
   height: 32px;
   color: white;
 }
+.footer__logo--img {
+  width: 32px;
+  height: 32px;
+  color: white;
+}
+.footer__poopers {
+  color: white;
+  font-size: 14px;
+  line-height: 1.5;
+  margin-top: 16px;
+  flex-direction: row-reverse;
+  display: flex;}
 
+.footer__poopers i {
+  color:#fff;
+}
 /* 
 
 MOBILE RESPONSIVENESS ↓
